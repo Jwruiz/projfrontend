@@ -9,6 +9,9 @@ html{
     font-size: 62.5%;
     color: black;
 }
+body{
+    background-color: rgba(0, 0, 255, 0.397);
+}
 li{
     list-style-type: none;
     /*font-size: 1.8em;*/
@@ -26,7 +29,7 @@ a{
 }
 /*header*/
 .hero_line{
-    border: 2px solid rgb(128, 28, 0);
+    /*border: 2px solid rgb(128, 28, 0);*/
 }
 .hero{
     max-width: 1200px;
@@ -105,8 +108,18 @@ a{
     background-color: blue;
     border-radius: 20%;
     border
-}
-.submenu_hover{
+}*/
+.submenu_hover:hover{
+    font-weight: 900;
+    color: red;
+    /*.submenu2{
+        display: block;*/
+    }
+/*.submenu2:hover + .submenu_hover:{
+    display: none;
+    
+}*/
+.submenu2{
     display: none;
 }
 /*.nav_menu-line:hover{
@@ -161,8 +174,12 @@ a{
     align-items: center;
     justify-content: center;
 }
+.sec2_hover:hover{
+    font-weight: 900;
+    color: red;
+}
 .sec2{
-    border: 2px solid rgb(128, 0, 87);
+    /*border: 2px solid rgb(128, 0, 87);*/
     max-width: 1200px;
     margin: auto;
     display: grid;
@@ -193,12 +210,16 @@ a{
 }
 /*footer*/
 .foot{
+    /*height: 400px;*/
+    background-color: rgba(255, 0, 0, 0.333);
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 .foot_redes{
+    /*margin-top: 20px;*/
     display: flex;
     gap: 10px;
     /*justify-content: space-between;*/
